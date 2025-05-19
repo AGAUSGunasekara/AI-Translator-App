@@ -13,7 +13,7 @@ The agent uses a Transformer-based T5 model for translation and returns results 
 
 ## How It Interacts with the User
 1. Streamlit Web Interface
-- The user is welcomed by a clean and simple UI.
+- The user is welcomed by a clean and simple User Interface.
 - They select a target language from a dropdown list.
 - They type their text to be translated into a text area.
 - Clicking the "Translate" button triggers the translation logic.
@@ -32,7 +32,7 @@ LangChain Integration
 - LLMChain handles prompt-to-model interactions with modular, reusable logic chains.
 
 Streamlit Frontend
-- Built using Streamlit for rapid UI prototyping.
+- Built using Streamlit for rapid User Interface prototyping.
 - Uses widgets like selectbox, text_area, and button.
 - Includes styled headers, input validation, and celebratory animations (st.balloons()).
 
